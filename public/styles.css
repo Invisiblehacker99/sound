@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('your-background-image.jpg'); /* Add a background image */
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.player {
+  
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  width: 450px;
+  backdrop-filter: blur(10px);
+}
+
+.auth-container {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  width: 400px;
+  color: white;
+}
+
+.auth-container h2 {
+  margin-bottom: 20px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.auth-form input {
+  padding: 12px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 16px;
+}
+
+.auth-form input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.auth-form button {
+  background-color: #ee9344;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 12px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.auth-form button:hover {
+  background-color: #0056b3;
+}
+
+.like-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.like-buttons button {
+  background-color: #28a745;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.like-buttons button:hover {
+  background-color: #218838;
+}
+
+.create-playlist {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  width: 400px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.create-playlist input {
+  padding: 12px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 16px;
+}
+
+.create-playlist input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.create-playlist button {
+  background-color: #dd61d0;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 12px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.create-playlist button:hover {
+  background-color: #d655c5;
+}
